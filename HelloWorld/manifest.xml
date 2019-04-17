@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+              xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+              xsi:type="TaskPaneApp">
+     <Id>50A41542-A9F3-43FD-A793-594FC7BDC3C6</Id>
+     <Version>15.0</Version>
+     <ProviderName>Microsoft</ProviderName>
+     <DefaultLocale>en-us</DefaultLocale>
+     <DisplayName DefaultValue="Hello World" />
+     <Description DefaultValue="Test the task pane add-in object model for Project - English (US)" />
+     <Hosts>
+       <Host Name="Project"/>
+       <Host Name="Workbook"/>
+       <Host Name="Document"/>
+     </Hosts>
+    <DefaultSettings>
+       <SourceLocation DefaultValue="S:\Departments\Scheduling-Earned-Value\Amy\AddInDev\HelloWorld\index.html" />
+     </DefaultSettings>
+     <Permissions>ReadWriteDocument</Permissions>
+     <IconUrl DefaultValue="http://officeimg.vo.msecnd.net/_layouts/images/general/office_logo.jpg">
+       <Override Locale="fr-fr" Value="http://officeimg.vo.msecnd.net/_layouts/images/general/office_logo.jpg"/>
+     </IconUrl>
+     <AllowSnapshot>true</AllowSnapshot>
+   </OfficeApp>
