@@ -14,7 +14,7 @@
        <Host Name="Document"/>
      </Hosts>
     <DefaultSettings>
-       <SourceLocation DefaultValue="S:\Departments\Scheduling-Earned-Value\Amy\AddInDev\HelloWorld\index.html" />
+       <SourceLocation DefaultValue="https://github.com/amster82/office-addin-dev" />
      </DefaultSettings>
      <Permissions>ReadWriteDocument</Permissions>
      <IconUrl DefaultValue="http://officeimg.vo.msecnd.net/_layouts/images/general/office_logo.jpg">
